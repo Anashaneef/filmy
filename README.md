@@ -20,3 +20,9 @@
 ### API
 - [OMDb API](https://www.omdbapi.com/)
 - [TMDB API](https://www.themoviedb.org/documentation/api)
+
+### How to run locally?
+Open terminal at the filmy directory and type some command below:
+- npm install
+- npm run start-dev *(for development phase)*
+- npm run build *(for production phase)*
