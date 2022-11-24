@@ -2,7 +2,7 @@
 
 ![filmy](https://user-images.githubusercontent.com/79641595/203778759-1fa1e1d3-b4fb-4c6c-aa09-b47e6d17ef83.png)
 
-## About Reccoffee
+## About Filmy
 *Filmy* is a website that functions to find a list of films that we want to find. Apart from that, *Filmy* also provides recommendations for the most popular films that we might like.
 ## Resources
 
