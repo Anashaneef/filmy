@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Manrope:wght@500&display=swap');
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #FB2576;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #f90060;
+}
+
+h1, h2, h4, h5, h6{
+    font-family: "Manrope", sans-serif;
+}
+
+p, a{
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.movie-list {
+    background-color: #150050;
+    padding-bottom: 5%;
+}
+
+.movie-poster {
+    width: 90%;
+    display: block;
+    margin: 5% auto;
+    min-height: 70%;
+}
+
+.movie-card {
+    background: rgba(112, 91, 171, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(112, 91, 171, 0.66);
+    margin: 5% auto;
+}
+
+.card-title {
+    text-align: center;
+    min-height: 70px;
+}
+
+.card-year {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    min-height: 100px;
+    text-align: justify;
+}
+
+.btn-movie {
+    background-color: #FB2576;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+
+.btn-movie:hover {
+    background-color: #f90060;
+}
+
+.card:hover {
+    transition: all .5s ease;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #FB2576;
+}
+
+.popular {
+    background-color: #3F0071;
+    padding-bottom: 10%;
+}
+
+.popular-title {
+    font-weight: bold;
+    color: #FB2576;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.popular hr {
+    color: #FB2576;
+    display: block;
+    height: 1px;
+    border-bottom: 3px solid #FB2576;
+    opacity: 100% !important;
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #150050;
+    color: #FB2576;
+}
